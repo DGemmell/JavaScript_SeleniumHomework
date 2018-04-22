@@ -170,6 +170,8 @@ describe('calculator functionality', function() {
     expect(running_total.getAttribute('value')).to.eventually.equal('Infinity');
   })
 
+  // bugs found n/0 displays infinity, there is no decimal point on calculator, multiply zero * n returns n rather than zero.
+
 
 
 

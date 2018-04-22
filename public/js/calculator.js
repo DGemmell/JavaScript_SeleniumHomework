@@ -83,4 +83,9 @@ Calculator.prototype = {
 
 };
 
-if (typeof module != 'undefined'){ module.exports = Calculator };
+// if (typeof module != 'undefined'){ module.exports = Calculator };
+
+if (typeof module == Number.POSITIVE_INFINITY || result == Number.NEGATIVE_INFINITY)
+{
+  module.exports = Calculator
+};

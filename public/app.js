@@ -2,6 +2,7 @@ window.onload = function(){
 
   var calculator = new Calculator();
 
+
   var updateView = function() {
     var runningTotal = document.querySelector('#running_total');
     runningTotal.value = calculator.runningTotal;
